@@ -1,26 +1,26 @@
-# 🧪 Cyber Security Home Lab Setup
+# Cyber Security Home Lab Setup
 
-## 🎯 Objective
+## Objective
 
 Build a personal lab environment for practicing penetration testing and networking.
 
-## 💻 Hardware Setup
+## Hardware Setup
 
-### 🖥️ Main Laptop
+### Main Laptop
 
 * OS: Arch Linux (Host)
 * Hypervisor: QEMU/KVM (virt-manager)
 * VM: Kali Linux
 
-### 💻 Secondary Laptop
+### Secondary Laptop
 
 * OS: Arch Linux (Host)
 * Hypervisor: QEMU/KVM
 * VM: OpenWRT (for network simulation)
 
-## 🧱 Lab Architecture
+## Lab Architecture
 
-## 🧱 Lab Architecture
+## Lab Architecture
 
 My lab is designed to simulate a small controlled network environment for cybersecurity practice.
 
@@ -28,14 +28,14 @@ My lab is designed to simulate a small controlled network environment for cybers
 * The **OpenWRT VM** acts as a **router and network controller**, allowing me to simulate real network behavior such as routing, firewall rules, and ICMP handling.
 * The **host machines (Arch Linux)** act as the base systems running the virtual machines using QEMU/KVM.
 
-### 🔁 Network Flow
+### Network Flow
 
 * Kali sends traffic (e.g., scans, pings)
 * Traffic passes through virtual networking (bridge/NAT)
 * OpenWRT can inspect, allow, or block traffic
 * Responses are sent back to Kali
 
-### 🌐 Network Modes Used
+### Network Modes Used
 
 * **NAT** → for safe internet access and isolation
 * **Bridge (br0)** → for direct communication between host and VM
@@ -46,11 +46,11 @@ This combination allows me to:
 * Control packet flow
 * Practice debugging network issues
 
-### 🔐 Isolation
+### Isolation
 
 This lab is isolated from my main network to prevent accidental interference or security risks. All testing is performed in a controlled environment.
 
-### 🎯 Purpose of This Design
+### Purpose of This Design
 
 * Simulate real-world network conditions
 * Practice reconnaissance and traffic analysis
@@ -65,14 +65,14 @@ Example:
 * NAT networking for safe isolation
 
 
-## 🌐 Networking Design
+## Networking Design
 
 * Default mode: NAT (safe, isolated)
 * Internal communication between VMs
 * No direct exposure to external network
 
 
-## 🛠️ Tools Installed
+## Tools Installed
 
 * Nmap
 * Wireshark
@@ -80,21 +80,21 @@ Example:
 * Metasploit (planned)
 
 
-## 🧠 Why This Setup?
+## Why This Setup?
 
 * Safe environment for testing attacks
 * No risk to real network
 * Full control over traffic and targets
 
 
-## ⚠️ Challenges Faced
+## Challenges Faced
 
 * VM permission issues
 * ISO access errors
 * Network configuration confusion
 
 
-## ✅ Outcome
+## Outcome
 
 Successfully built a working cybersecurity lab for:
 
