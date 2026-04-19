@@ -4,8 +4,6 @@
 
 Build a personal lab environment for practicing penetration testing and networking.
 
----
-
 ## 💻 Hardware Setup
 
 ### 🖥️ Main Laptop
@@ -19,8 +17,6 @@ Build a personal lab environment for practicing penetration testing and networki
 * OS: Arch Linux (Host)
 * Hypervisor: QEMU/KVM
 * VM: OpenWRT (for network simulation)
-
----
 
 ## 🧱 Lab Architecture
 
@@ -68,7 +64,6 @@ Example:
 * OpenWRT used as router/network control
 * NAT networking for safe isolation
 
----
 
 ## 🌐 Networking Design
 
@@ -76,7 +71,6 @@ Example:
 * Internal communication between VMs
 * No direct exposure to external network
 
----
 
 ## 🛠️ Tools Installed
 
@@ -85,7 +79,6 @@ Example:
 * Burp Suite (planned)
 * Metasploit (planned)
 
----
 
 ## 🧠 Why This Setup?
 
@@ -93,7 +86,6 @@ Example:
 * No risk to real network
 * Full control over traffic and targets
 
----
 
 ## ⚠️ Challenges Faced
 
@@ -101,7 +93,6 @@ Example:
 * ISO access errors
 * Network configuration confusion
 
----
 
 ## ✅ Outcome
 
@@ -111,4 +102,3 @@ Successfully built a working cybersecurity lab for:
 * Traffic analysis
 * Future exploitation practice
 
----
